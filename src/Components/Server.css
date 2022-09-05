@@ -1,0 +1,39 @@
+.img-size
+{
+    height: 250px!important;
+    width: inherit !important;
+}
+.clr 
+{
+    border-radius: 15px;
+}
+.heading
+{
+    border-radius: 5px;
+}
+.for-hover:hover
+{
+    transform: scale(1.04) translateY(-8px);
+    transition: all 0.2s ;
+}
+.click-field {
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+    position: absolute;
+}
+.model-img {
+    z-index: 30;
+    background-color: rgba(0, 0, 0, 0.605);
+    width: 100%;
+    height: 800px;
+    transform: translateY(-100px);
+    box-sizing: border-box;
+}
+.img-container>img {
+    width: 60% !important;
+    height: 500px !important;
+}
+body {
+    position: relative;
+}
